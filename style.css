@@ -53,6 +53,13 @@ button{
     border: 1px solid rgb(227, 76, 227);
     border-radius: 10px;
 }
+.attribution {
+    font-size: 15px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 @media screen and (min-width: 1000px){
     .container{
         max-width: 1000px;
