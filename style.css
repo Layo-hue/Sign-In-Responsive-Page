@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    color: grey;
+}
+.container{
+    display: flex;
+    max-width: 375px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+.details{
+    width: 100%;
+    align-self: center;
+}
+h1{
+    color: rgb(227, 76, 227);
+    margin-bottom: 1rem;
+}
+.details p{
+    margin-bottom: 2rem;
+}
+.email,
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .8rem;
+}
+.email input,
+.password input{
+    margin-top: .5rem;
+    border-radius: 10px;
+    padding: .5rem;
+    border: 1px solid grey;
+}
+.check{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+img{ 
+    display: none;
+}
+button{
+    width: 100%;
+    background-color: rgb(227, 76, 227);
+    color: white;
+    padding: .5rem;
+    border: 1px solid rgb(227, 76, 227);
+    border-radius: 10px;
+}
+@media screen and (min-width: 1000px){
+    .container{
+        max-width: 1000px;
+    }
+    img{
+        display: flex;
+        width: 60%;
+    }
+    .details{
+        width: 30%;
+    }
+}
